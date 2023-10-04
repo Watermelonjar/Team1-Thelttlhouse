@@ -9,4 +9,5 @@ I could be reached on discord id: watermelonjar
 
 
 Resources:
-![Alt text](image.png)
+
+-[Recommended resouces to learn from](./Resource_to_learn_Web.docx)
