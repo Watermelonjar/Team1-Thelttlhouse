@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <nav>
-        <img src="./images/thelittlehouse.png">
-        <li>
+  <body class="body">
+    <nav class="nav_box">
+        <img src="./images/lilhousenav.png" class="logo">
+        <li class="nav_buttons">
             <ul>Home</ul>
             <ul>About us</ul>
             <ul>History</ul>
@@ -19,16 +22,24 @@
         </li>
     </nav>
     <main>
-        <div>
-            <h1>Education Should be for Everyone</h1>
+      <section class = "main-pagesec" id="main-pagesec">
+        
+        <div class = "main-quote" id ="main-quote">
+            <h1 class ="slogan">Education Should be for Everyone</h1>
             <p>Our, non-profit organization aims to educate everyone no matter your socioeconomic standing, or other hardships</p>
         </div>
-
-        <div>
+        <div class="scroll-more">
             <h3>Scroll to learn more!</h3>
-            <img src="./images/2623474-200.png">
+            <img src="./images/2623474-200.png" class="scroll-image">
         </div>
+      </section>
+      <section class="main-addinfo">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate autem cum, aperiam facilis repellat labore! Assumenda voluptate voluptates rem aspernatur? Aliquam alias id reprehenderit atque neque quo eaque unde. Illo?</p>
+      </section>
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
 	
   </body>
 </html>
