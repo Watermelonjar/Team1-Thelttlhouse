@@ -3,7 +3,14 @@
     background-color: white;
     scroll-behavior: smooth;
 }
-
+a {
+    text-decoration: none;
+    color:inherit;
+  }
+a:hover, a:active {
+    color: grey;
+   
+  }
 .nav_box{
     position: sticky;
     top: 0;
@@ -11,31 +18,37 @@
     height: 50px;
     width: auto;
     z-index: 100;
-    background-color: hsla(0, 0%, 100%, 0);
     justify-content:flex-start;
     text-align: center;
     font-family:'lato', sans-serif;
     padding: 10px;
-    background-color: white;
+    background-color: transparent;
     margin: -10px;
     outline: 2px solid;
-    outline-color: gray;
+    outline-color: transparent;
 
-
+    color:white;
+    flex-direction: row;
 }
 .logo{
-    
-    width: 30 vw;
+    width: 22vh;
     height: auto;
+    
 }
+
 .nav_buttons{
     list-style-type:none;
     display: flex;
-    flex-direction: row;
     align-self: center;
     width: 70vw;
-    color:black;
-    
+    color:inherit;
+    justify-content: space-evenly;
+    text-decoration: none;
+    flex-direction: inherit;
+}
+.buttonnav{
+    text-decoration: none;
+
 }
 .main-quote{
     display: flex;
@@ -71,12 +84,7 @@
     margin-top: 0;
 }
 
-.scroll-more{
-    display:flex;
-    flex-direction: column;
-    max-height: 4lvh;
-    align-items: center;
-}
+
 .scroll-image{
     height:10dvh;
 
@@ -84,20 +92,20 @@
 
 .main-addinfo{
     height: 90vh;
-    margin-top: 65vh;
+    margin-top: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     
 }
 .extendlogos{
     height: 30vh;
     width: auto;
-    
+    align-items: inherit;
 }
 
 .aboutbox{
-    max-width: 20vw;
+    max-width: 30vw;
     text-align: center;
 }
 .h2{
@@ -112,4 +120,14 @@
     display: flex;
     flex-direction: column;
     padding-left: 5vw;
+    position:inherit;
+}
+.social-icons{
+    height: 10px;
+    width: auto;
+    display: flex;
+}
+.logoig{
+    height: 20px;
+    width: 20px;
 }
