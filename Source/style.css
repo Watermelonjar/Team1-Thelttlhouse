@@ -1,6 +1,6 @@
 .body{
     font-family: 'Roboto',sans-serif;
-    background-color: black;
+    background-color: white;
     scroll-behavior: smooth;
 }
 
@@ -8,7 +8,7 @@
     position: sticky;
     top: 0;
     display: flex;
-    height: 100px;
+    height: 50px;
     width: auto;
     z-index: 100;
     background-color: hsla(0, 0%, 100%, 0);
@@ -16,10 +16,17 @@
     text-align: center;
     font-family:'lato', sans-serif;
     padding: 10px;
+    background-color: white;
+    margin: -10px;
+    outline: 2px solid;
+    outline-color: gray;
+
 
 }
 .logo{
-    background-color: white;
+    
+    width: 30 vw;
+    height: auto;
 }
 .nav_buttons{
     list-style-type:none;
@@ -27,7 +34,7 @@
     flex-direction: row;
     align-self: center;
     width: 70vw;
-    color:whitesmoke;
+    color:black;
     
 }
 .main-quote{
@@ -42,15 +49,18 @@
     font-family: 'Poppins',sans-serif;
     font-size: 50px;
 }
+.slogane{
+    color:red;
+}
 .main-pagesec{
     position: absolute;
     z-index: 0;
     top:0;
-    color: whitesmoke;
+    color: white;
     display: flex;
     flex-direction: column;
-    background-image: url('./images/main_bg.png');
-    height: 100vh;
+    background-image: url('./images/main-test1.png');
+    height: 80vh;
     left:0;
     width: 100vw;
     background-size:cover;
@@ -73,5 +83,33 @@
 }
 
 .main-addinfo{
-    height: 100vh;
+    height: 90vh;
+    margin-top: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.extendlogos{
+    height: 30vh;
+    width: auto;
+    
+}
+
+.aboutbox{
+    max-width: 20vw;
+    text-align: center;
+}
+.h2{
+    font-family: 'Poppins',sans-serif;
+}
+
+.footer{
+    height: 30vh;
+    background-color: black;
+    color: white;
+    margin: -20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
 }
