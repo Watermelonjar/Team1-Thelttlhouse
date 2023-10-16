@@ -2,6 +2,9 @@ const navbar = document.getElementById("navbar");
 var navlogo= document.getElementById("logo");
 const adinfo = document.getElementById("adinfo");
 const footer = document.getElementById("footer");
+const about = document.getElementById("aboutbox");
+const about2 = document.getElementById("aboutbox2");
+const about3 = document.getElementById("aboutbox3");
 window.addEventListener("scroll", () => {
   if (window.scrollY === 0) {
     // At the top of the page, make navbar transparent
@@ -29,10 +32,15 @@ function handleResize() {
   if (windowWidth <= 768) {
     navbar.style.flexDirection="column";
     navbar.style.height="15vh";
+    navbar.style.width="100vw";
     adinfo.style.flexDirection="column";
-    adinfo.style.alignItems="baseline";
-    adinfo.style.marginTop="140vh";
-    footer.style.marginTop="70vh";
+    adinfo.style.alignItems="center";
+    adinfo.style.marginTop="100vh";
+    about.style.maxWidth="80vw";
+    about2.style.maxWidth="80vw";
+    about3.style.maxWidth="80vw";
+    footer.style.marginTop="40vh";
+
     var element = document.getElementById('myElement'); 
     
     element.style.width = '100%'; 
@@ -43,6 +51,9 @@ function handleResize() {
     adinfo.style.alignItems="center";
     adinfo.style.marginTop="60vh";
     footer.style.marginTop="0";
+    about.style.maxWidth="30vw";
+    about2.style.maxWidth="30vw";
+    about3.style.maxWidth="30vw";
     var element = document.getElementById('myElement'); // Replace with your element's ID
     element.style.width = 'auto'; // Reset the width
   }
