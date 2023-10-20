@@ -13,38 +13,43 @@ a:hover, a:active {
   }
 .nav_box{
     position: sticky;
+    display:flex;
     top: 0;
-    display: flex;
+    justify-content: center;
     height: 50px;
     width: auto;
     z-index: 100;
-    justify-content:flex-start;
     text-align: center;
-    font-family:'Roboto', sans-serif;
-    padding: 10px;
+    font-family:'Rubik', sans-serif;
     background-color: transparent;
     margin: -10px;
-    outline: 2px solid;
-    outline-color: transparent;
-
-    color:white;
     flex-direction: row;
+    margin-top:10px;
 }
 .logo{
+    margin-left: -35vw;
+    order:1;
     width: auto;
     height: 6vh;
     
 }
 
 .nav_buttons{
-    list-style-type:none;
-    display: flex;
+    margin-top: 30px;
+    display:flex;
+    position:inherit;
+    align-items: center;
     align-self: center;
-    width: 70vw;
-    color:inherit;
-    justify-content: space-evenly;
+    width: fit-content;
+    justify-content: center;
+    gap : 50px;
     text-decoration: none;
     flex-direction: inherit;
+    order:2;
+    background-color:black;
+    color:white;
+    padding: 10px;
+    border-radius:20px;
 }
 .buttonnav{
     text-decoration: none;
@@ -56,24 +61,22 @@ a:hover, a:active {
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap:10px;
     
 }
 .slogan{
     font-family: 'Poppins',sans-serif;
-    font-size: 50px;
-}
-.slogane{
-    color:red;
+    font-size: 40px;
 }
 .main-pagesec{
-    position: absolute;
+    position: relative;
     z-index: 0;
     top:0;
     color: white;
     display: flex;
     flex-direction: column;
     background-image: url('./images/main-test1.png');
-    height: 80vh;
+    height: 100vh;
     left:0;
     width: 100vw;
     background-size:cover;
@@ -81,35 +84,22 @@ a:hover, a:active {
     background-position: center;
     justify-content: center;
     overflow-y: auto;
-    margin-top: 0;
-}
-
-
-.scroll-image{
-    height:10dvh;
-
-}
-
-.main-addinfo{
-    height: 90vh;
-    margin-top: 80vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    margin-top: -60px;
+    align-self: center;
+    margin-left: -10px;
     
 }
-.extendlogos{
-    height: 30vh;
-    width: auto;
-    align-items: inherit;
-}
 
-.aboutbox{
-    max-width: 30vw;
-    text-align: center;
-}
-.h2{
-    font-family: 'Poppins',sans-serif;
+.donate_button{
+    background-color: rgb(255, 221, 154);
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    color: black;
+    font-family:'Poppins',sans-serif;
+    box-shadow: 0 0 5px 5px rgba(255, 221, 154, 0.756);
+    
 }
 
 .footer{
@@ -117,6 +107,7 @@ a:hover, a:active {
     background-color: black;
     color: white;
     margin: -20px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     padding-left: 5vw;
@@ -125,6 +116,9 @@ a:hover, a:active {
 .social-icons{
     height: 10px;
     width: auto;
+    display: flex;
+}
+.social-text{
     display: flex;
 }
 .logoig{
