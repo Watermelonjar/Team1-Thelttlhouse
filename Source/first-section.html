@@ -7,32 +7,53 @@
     <title>Cecilia - About Page - First Section</title>
     <!-- FONT AWESOME LINK -->
     <script src="https://kit.fontawesome.com/b82efd4820.js" crossorigin="anonymous"></script>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="first-section.css">
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <main>
+    <main class="front-page">
         <!-- ------------------------------------------------------
             --------------------- FIRST SECTION -------------------- -->
-        <section>
-            <h2>
-                Learning center guiding underprivileged children
-            </h2>
-            <p>
-                An initiative that has since built 5 learning centers serving over 200 underprivileged Indonesian
-                children.
-            </p>
-            <div>
-                <div>
-                    Donate
+        <section class="first-section">
+            <div class="main-title-container">
+                <h2 class="main-title">
+                    Learning center guiding underprivileged children
+                </h2>
+            </div>
+            <div class="abajo-de-Titulo">
+                <div class="description-container">
+                    <p class="description-front-page">
+                        An initiative that has since built 5 learning centers serving over 200 underprivileged
+                        Indonesian
+                        children.
+                    </p>
                 </div>
-                <div>
-                    Contact us
+
+                <div class="btn-donate-contact">
+                    <div class="btn btn-donate">
+                        <p>
+                            Donate
+                        </p>
+                    </div>
+                    <div class="btn btn-contact">
+                        <p>
+                            Contact us
+                        </p>
+                    </div>
                 </div>
             </div>
+
         </section>
         <!-- ------------------------------------------------------
             --------------------- IMAGES -------------------- -->
-        <div>
+        <!-- <div>
             <div>
                 <img src="./assets-first-section/first-section-img1.svg"
                     alt="Teacher giving a lecture to children in a classroom" />
@@ -44,11 +65,13 @@
             <div>
                 <img src="./assets-first-section/first-section-img3.svg" alt="Children in a classroom" />
             </div>
-        </div>
+        </div> -->
         <!-- ------------------------------------------------------
             --------------------- SECOND SECTION -------------------- -->
-        <section>
-            <i class="fa-sharp fa-solid fa-location-dot"></i>
+        <section class="second-section">
+            <div>
+                <img src="./assets-first-section/location.svg" alt="location dot" />
+            </div>
             <h3>
                 5 locations across Jakarta
             </h3>
