@@ -1,12 +1,13 @@
-* {
+html{
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 a{
     text-decoration: 0;
     color:inherit;
 }
+
 .body{
     font-family: 'Roboto',sans-serif;
     background-color: white;
@@ -15,7 +16,7 @@ a{
 .nav-butbut{
     text-decoration: none;
     color:white;
-    padding: 20px;
+    padding: 2rem;
     transition: color 0.3s, background-color 0.3s;
 }
 .nav-butbut:hover, .nav-butbut:active {
@@ -27,27 +28,25 @@ a{
     display:flex;
     top: 0;
     justify-content: space-between;
-    height: 60px;
-    width: auto;
+    height: 5rem;
     z-index: 100;
     text-align: center;
     font-family:'Rubik', sans-serif;
     background-color: transparent;
-    margin: -10px;
+    margin: -1rem;
     flex-direction: row;
-    background-color: #2F2E27;
-    margin-right: -20px;
+    background-color: rgb(23, 22, 16);
+    
 }
 .logo{
     order:1;
     width: auto;
     height: 3rem;
     align-self: center;
-    margin: 4px;
+    margin: 0.9rem;
 }
 
 .nav_buttons{
-
     display:flex;
     position:inherit;
     align-items: center;
@@ -60,25 +59,23 @@ a{
     color:black;
     padding: 10px;
     border-radius:20px;
+    font-family: 'Rubik',sans-serif;
 }
 .buttonnav{
     text-decoration: none;
-
 }
 
 .first-section {
-    width: 1440px;
+    width: auto;
     height: 900px;
     background-color: #2F2E27; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    width: 100vw;
+    margin-left: -1rem;
 }
-
-.main-title-container {
-    width: 818px;
-    height: 146px;
-    margin-top: 191px;
-    margin-left: 109px;
-}
-
 .main-title {
     font-size: 60px;
     font-weight: 700;
@@ -86,30 +83,34 @@ a{
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -7rem;
 }
 
 .main-title-container {
-    width: 818px;
+    width: 80vw;
     height: 146px;
-    margin-top: 191px;
+    padding-top: 10vh;
     margin-left: 109px;
+    width: 50rem;
 }
 
 .abajo-de-Titulo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 70rem;
 }
 
 .description-container {
-    width: 621px;
+    width: 50vw;
     height: 180px;
     margin-top: 36px;
     margin-left: 109px;
 }
 
 .description-front-page {
-     font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: 300;
     line-height: 36px;
@@ -158,14 +159,118 @@ a{
     color: #FFFFFF;
 }
 
-
-.second-section {
-    width: 1440px;
-    height: 736px;
-    margin-top: 900px;
-    background-color:#F5F5F5;
+.images-container{
+    display: flex;
+    margin-top: -30rem;
+    width: 40rem;
+    margin-left: -30rem;
+    flex-direction: row;
+    gap: 1rem;
+    transform: translate(0,25rem);
+    
+}
+.images-container2{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    
 }
 
+.second-section {
+    width: 100vw;
+    height: 60rem;
+    margin-left: -1rem;
+    background-color:#F5F5F5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:4rem;
+    font-size: larger;
+}
+.dotpint{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Montserrat',sans-serif;
+}
+.secsec-vecs{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    max-width: 80vw;
+    align-items: center;
+    justify-content: center;
+}
+.vecs-containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    font-size: large;
+}
+.section3{
+    display: flex;
+    background-color:#FFFBDB;
+    margin-top:-10rem;
+    gap:3rem;
+    width: 100vw;
+    justify-content: center;
+    margin-left:-1rem;
+    padding-top:2rem;
+    padding-bottom: 3rem;
+}
+
+.section3longs{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.seclong-text-cont{
+    font-family: 'Montserrat',sans-serif;
+}
+.blue-text{
+    color: blue;
+}
+.FAQ-sec{
+    display: flex;
+    width: 100vw;
+    margin-left: -1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100vh;
+    background-color:#F5F5F5;
+    gap:3rem;
+    padding-bottom: 10rem;
+}
+.FAQ-Clusters{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.FAQ-containers{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+    width: 50rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-family: 'Montserrat',sans-serif;
+}
+.questions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
 .footer{
     align-items: center;
     gap:10vw;
@@ -173,7 +278,7 @@ a{
     background-color: black;
     color: white;
     margin: -20px;
-    margin-top: 0px;
+    margin-left: -1.1rem;
     display: flex;
     padding-left: 5vw;
     position:inherit;
@@ -181,7 +286,6 @@ a{
     justify-content: flex-start;
     flex-direction: row;
     font-family: 'Roboto';
-    padding-left: 10vw;
 }
 .social-icons{
     height: 10px;
