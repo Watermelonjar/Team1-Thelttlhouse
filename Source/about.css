@@ -161,12 +161,12 @@ a{
 
 .images-container{
     display: flex;
-    margin-top: -500px;
+    margin-top: -30rem;
     width: 40rem;
     margin-left: -30rem;
     flex-direction: row;
     gap: 1rem;
-    transform: translate(0,35vh);
+    transform: translate(0,25rem);
     
 }
 .images-container2{
