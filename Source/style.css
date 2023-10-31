@@ -36,8 +36,9 @@ a{
 .logo{
     order:1;
     width: auto;
-    height: 6vh;
+    height: 3rem;
     align-self: center;
+    margin-top:6px;
 }
 
 .nav_buttons{
