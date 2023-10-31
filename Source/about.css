@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 a{
     text-decoration: 0;
@@ -35,7 +35,7 @@ a{
     background-color: transparent;
     margin: -10px;
     flex-direction: row;
-    background-color: #2F2E27;
+    background-color: rgb(23, 22, 16);
     margin-right: -20px;
 }
 .logo{
@@ -43,7 +43,7 @@ a{
     width: auto;
     height: 3rem;
     align-self: center;
-    margin: 4px;
+    margin: 0.4rem;
 }
 
 .nav_buttons{
@@ -60,25 +60,17 @@ a{
     color:black;
     padding: 10px;
     border-radius:20px;
+    font-family: 'Rubik',sans-serif;
 }
 .buttonnav{
     text-decoration: none;
-
 }
 
 .first-section {
-    width: 1440px;
+    width: 100vw;
     height: 900px;
     background-color: #2F2E27; 
 }
-
-.main-title-container {
-    width: 818px;
-    height: 146px;
-    margin-top: 191px;
-    margin-left: 109px;
-}
-
 .main-title {
     font-size: 60px;
     font-weight: 700;
@@ -86,12 +78,13 @@ a{
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-title-container {
-    width: 818px;
+    width: 80vw;
     height: 146px;
-    margin-top: 191px;
+    padding-top: 30vh;
     margin-left: 109px;
 }
 
@@ -102,14 +95,14 @@ a{
 }
 
 .description-container {
-    width: 621px;
+    width: 50vw;
     height: 180px;
     margin-top: 36px;
     margin-left: 109px;
 }
 
 .description-front-page {
-     font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 30px;
     font-weight: 300;
     line-height: 36px;
@@ -158,52 +151,10 @@ a{
     color: #FFFFFF;
 }
 
-
 .second-section {
-    width: 1440px;
+    width: 100vw;
     height: 736px;
     margin-top: 900px;
     background-color:#F5F5F5;
 }
 
-.footer{
-    align-items: center;
-    gap:10vw;
-    height: 300px;
-    background-color: black;
-    color: white;
-    margin: -20px;
-    margin-top: 0px;
-    display: flex;
-    padding-left: 5vw;
-    position:inherit;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    font-family: 'Roboto';
-    padding-left: 10vw;
-}
-.social-icons{
-    height: 10px;
-    width: auto;
-    display: flex;
-}
-.social-text{
-    display: flex;
-}
-.footer-logo{
-    width:200px;
-    margin-left: -10px;
-}
-.footerdiv{
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-    max-width: 20vw;
-    gap:20px;
-    justify-content: flex-start;
-}
-.logoig{
-    height: 20px;
-    width: 20px;
-}
