@@ -1,5 +1,5 @@
 html{
-    padding: 0;
+    padding: 0.5rem;
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
@@ -15,7 +15,7 @@ a{
 }
 .nav-butbut{
     text-decoration: none;
-    color:white;
+    color:rgb(121, 77, 77);
     padding: 2rem;
     transition: color 0.3s, background-color 0.3s;
 }
@@ -35,7 +35,7 @@ a{
     background-color: transparent;
     margin: -1rem;
     flex-direction: row;
-    background-color: rgb(23, 22, 16);
+    background-color: rgb(255, 232, 82);
     
 }
 .logo{
@@ -68,7 +68,7 @@ a{
 .first-section {
     width: auto;
     height: 900px;
-    background-color: #2F2E27; 
+    background-color: #c57f59; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,8 +89,8 @@ a{
 
 .main-title-container {
     width: 80vw;
-    height: 146px;
-    padding-top: 10vh;
+    height: 10rem;
+    padding-top: 10rem;
     margin-left: 109px;
     width: 50rem;
 }
@@ -148,8 +148,7 @@ a{
 
 .btn-donate {
     color:#000000;
-    background-color: #A8FF35;
-    border: 1px solid #000000;
+    background-color: #A8FF35; 
     box-shadow: 0px 4px 4px 0px #00000040;
     margin-right:20px;
 }
@@ -166,7 +165,7 @@ a{
     margin-left: -30rem;
     flex-direction: row;
     gap: 1rem;
-    transform: translate(0,25rem);
+    transform: translate(5rem,25rem);
     
 }
 .images-container2{
@@ -222,7 +221,7 @@ a{
 }
 
 .section3longs{
-    width: 30rem;
+    width: 25rem;
     display: flex;
     flex-direction: column;
     gap:3rem;
@@ -241,10 +240,11 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height:100vh;
+    height:70rem;
     background-color:#F5F5F5;
     gap:3rem;
     padding-bottom: 10rem;
+    padding-top: 6rem;
 }
 .FAQ-Clusters{
     display: flex;
