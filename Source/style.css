@@ -83,7 +83,7 @@ a{
     color: white;
     display: flex;
     flex-direction: column;
-    background-image: url('./images/main-test1.png');
+    background-image: url('./images/main-test1.png'); 
     height: 100vh;
     left:-0.5rem;
     width: 101vw;

@@ -67,7 +67,7 @@ a{
 
 .first-section {
     width: auto;
-    height: 900px;
+    height: 800px;
     background-color: #c57f59; 
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ a{
 .main-title-container {
     width: 80vw;
     height: 10rem;
-    padding-top: 10rem;
+    padding-top: 8rem;
     margin-left: 109px;
     width: 50rem;
 }

@@ -81,6 +81,7 @@ a{
     font-size: 72px;
     color: white;
 }
+
 .history-boxes{
     display: flex;
     flex-direction: column;
@@ -88,6 +89,9 @@ a{
     background-color: bisque;
     width: 100vw;
     margin-left: -1rem;
+    gap:2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .history-box{
     background-color: antiquewhite;
@@ -107,7 +111,10 @@ a{
 }
 
 .title-box{
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Motnserrat',sans-serif;
+}
+.text-content{
+    font-family: 'Rubik',sans-serif;
 }
 .footer{
     align-items: center;
