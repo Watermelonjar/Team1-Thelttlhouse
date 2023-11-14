@@ -540,9 +540,15 @@ a{
     }
     .section3{
         flex-direction: column;
+        width: fit-content;
+        align-items: center;
+    }
+    .FAQ-sec{
+        height: 90rem;
     }
     .section3longs{
         align-self: center;
+        align-items: center;
     }
     .FAQ-Clusters{
         gap:3px;
